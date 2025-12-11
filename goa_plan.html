@@ -1,0 +1,514 @@
+<!-- FILE: index.html -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Goa 4-Day Veg Itinerary (Full)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      scroll-behavior: smooth;
+      background: #f5f7fb;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+
+    .hero {
+      background: linear-gradient(90deg, #FFD966, #FFB4A2);
+      padding: 36px;
+      border-radius: 14px;
+      margin-top: 100px;
+    }
+
+    .card {
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(17, 24, 39, 0.06);
+    }
+
+    .day-section {
+      padding: 36px 0
+    }
+
+    .day-title {
+      font-size: 1.25rem;
+      font-weight: 700
+    }
+
+    .subtle {
+      color: #5b6b78
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      background: #eef7ff;
+      border-radius: 999px;
+      margin-right: 8px;
+      font-size: 13px
+    }
+
+    .animate-up {
+      animation: up 700ms ease both
+    }
+
+    @keyframes up {
+      from {
+        opacity: 0;
+        transform: translateY(18px)
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+
+    pre {
+      white-space: pre-wrap;
+      font-family: inherit;
+      background: #fff;
+      padding: 12px;
+      border-radius: 8px
+    }
+
+
+
+    .budget-box {
+      background: #fff;
+      padding: 18px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    canvas {
+      background: #fff;
+      padding: 10px;
+      border-radius: 12px;
+    }
+
+    .chart-wrapper {
+      max-width: 280px;
+      /* Change this number to resize */
+      margin: 0 auto;
+      /* center the chart */
+    }
+
+    #pieChart {
+      width: 260px !important;
+      height: 260px !important;
+      margin: auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">XMas Goa Blast</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="hero animate-up">
+      <h1 class="mb-1">🌴✨ 4-Day Premium Goa Itinerary (Veg-Friendly, Baby-Friendly)</h1>
+      <p class="subtle mb-0">North Goa (Arpora) → South Goa (Palolem). Dates: 25–28 Dec. Arrival: 25 Dec, 6 AM at
+        Manohar Airport. Return: Madgaon.</p>
+    </div>
+
+    <!-- Intro Notes -->
+    <section class="day-section">
+      <div class="card p-4 animate-up">
+        <h3 class="day-title">⭐ BEFORE THE ITINERARY — Quick Notes</h3>
+        <p class="subtle mb-0">- Weather: Cool mornings (18–21°C), pleasant evenings. <br>
+          - December is peak season → little crowd, but magical! <br>
+          - Scooty hire: ₹400–600/day (North) & ₹500–700/day (South). <br>
+          - Baby-friendly beaches: Baga (mornings), Candolim, Palolem, Agonda.</p>
+      </div>
+    </section>
+
+    <!-- DAY 1 -->
+    <section id="day1" class="day-section">
+      <div class="card p-4 animate-up">
+        <h3 class="day-title">🎄 DAY 1 — 25th Dec (Wed)</h3>
+        <h5 class="mt-2">“Christmas Morning in North Goa + Fort + Beach + Celebration”</h5>
+        <p><strong>Stay:</strong> Arpora<br><strong>Theme:</strong> Relax → Explore → Christmas vibes</p>
+
+        <pre>6:00 AM — Arrive at Manohar Airport
+Walk out into the cool Christmas morning breeze of Goa. The roads are empty, peaceful.
+- Take a prepaid taxi to Arpora (40–50 mins).
+- If hotel allows early check-in, great; if not, leave luggage and freshen up.</pre>
+
+        <pre>8:00 AM — Vegetarian Breakfast (Comforting & Heavy)
+Since it's a long morning with you, your wife, and a 10-month baby, start with energy:
+Best Veg Options:
+- Navtara Pure Veg (Calangute) → Idli, dosa, poha, puri bhaji, thali.
+- Infantaria (Baga) → Veg sandwiches, croissants, pancakes—crowd favourite.
+
+A slow, relaxed breakfast is perfect to settle into holiday mode.</pre>
+
+        <pre>10:00 AM – 1:00 PM — Baga + Calangute Beach (Easy Start to the Trip)
+Morning is the safest & cleanest time for beaches with a baby.
+- Walk barefoot on the cool sand
+- Sit under shade with coconut water
+- Baby-friendly shacks with veg food available
+- Take lots of Christmas-morning family photos
+
+✨ No water sports today — the body is tired from travel. Enjoy peace first.</pre>
+
+        <pre>1:30 PM — Pure Veg Lunch
+Best options near Baga/Arpora:
+- Shree Vinayak Family Veg (very homely)
+- Navtara Calangute (reliable veg thali)
+- Jalsa Veg Thali (Gujarati/Rajasthani)
+
+Eat light/medium because evening will be long and fun.</pre>
+
+        <pre>3:00 PM — Fort Aguada + Sinquerim Beach
+Take a scenic drive to Fort Aguada.
+- Beautiful view of the Arabian Sea
+- Wide space for baby stroller
+- Memorable family photos
+
+Then drop down to Sinquerim Beach—calmer than Baga, perfect for babies.</pre>
+
+        <pre>6:00 PM — Celebrate Christmas in Goa (Choose mood)
+You have two perfect choices:
+
+Option A: Panjim Christmas Lights + Church Visit
+- Visit Our Lady of Immaculate Conception Church
+- Christmas lights + carols + families dressed beautifully
+- Pure veg dinner at Kamat or Cafe Tato
+
+Great if you want a peaceful festive experience.
+
+Option B: Candolim Beach Xmas Night
+Choose a family-friendly shack with veg menu.
+- Live music
+- Christmas ambience
+- Fireworks
+- Beach candles
+
+Perfect if you want celebration without loud nightlife.</pre>
+
+        <pre>10:00 PM — Back to Arpora & Sleep Early
+You slept less; tomorrow is an active adventure day.</pre>
+      </div>
+    </section>
+
+    <!-- DAY 2 -->
+    <section id="day2" class="day-section">
+      <div class="card p-4 animate-up">
+        <h3 class="day-title">🌅 DAY 2 — 26th Dec (Thu)</h3>
+        <h5 class="mt-2">“Water Sports + Chapora Fort Sunset + Night Market”</h5>
+
+        <pre>8:30 AM — Breakfast (Veg Only)
+- Navtara
+- Udupi Veg Baga
+
+Fuel up—today’s the big day!</pre>
+
+        <pre>10:00 AM – 1:00 PM — Water Sports (Family-Friendly Combo)
+Go to Vagator or Baga for the safest & most organized vendors.
+
+Recommended combo:
+✔ Parasailing (safe, spectacular views)
+✔ Jet Ski With Instructor
+✔ Banana Boat (optional if you want comfort)
+✔ Speed Boat Ride
+
+You can rotate between adults while baby stays safe at the shack.
+
+💡 Best time for photos is before noon.</pre>
+
+        <pre>1:30 PM — Veg Lunch with View
+- Veg Pizzeria (Anjuna) → wood-fired veg pizza
+- Sri Krishna Pure Veg → Indian meals
+- Baba Au Rhum → veg crepes, sandwiches
+
+Relax after activities.</pre>
+
+        <pre>3:30 PM — Chapora Fort (Dil Chahta Hai Point)
+A must-visit viewpoint in Goa.
+- Short climb (baby can be carried)
+- Breathtaking panoramic sea views
+- Windy & perfect for dramatic sunset photos
+- No crowd midday, so you reach before sunset rush
+
+✨ Sunset here is an emotion.</pre>
+
+        <pre>
+ visit Anjuna Flea Market or Chapora street at night best night life nowadays
+
+Highlights:
+- Handmade jewelry
+- Clothes
+- Spices
+- Live music
+- Veg momos, veg shawarmas, falafels
+
+Let your baby enjoy lights & music.</pre>
+
+        <pre>9:00 PM — Dinner (Veg Only)
+- Sarvodaya Pure Veg, Anjuna
+- Udupi Veg, Calangute
+
+Simple, comforting vegetarian food after a long day.</pre>
+      </div>
+    </section>
+
+    <!-- DAY 3 FULL DETAILS (must include exact detailed text) -->
+    <section id="day3" class="day-section">
+      <div class="card p-4 animate-up">
+        <h3 class="day-title">🌿 DAY 3 — 27th Dec (Fri)</h3>
+        <h5 class="mt-2">“Move to South Goa + Kayaking + Peaceful Beaches”</h5>
+
+        <pre>8:00 AM — Breakfast & Checkout
+Have a soothing meal since drive is long.</pre>
+
+        <pre>9:00 AM — Drive Arpora → Palolem (1.5–2 hours)
+A beautiful scenic drive through villages & forests.
+Baby will likely nap during the journey.</pre>
+
+        <pre>11:30 AM — Check-in at Palolem
+Freshen up, relax.</pre>
+
+        <pre>12:30 PM — Veg Lunch in South Goa
+Best veg-friendly cafés:
+- Little World Café (pure veg)
+- Zest Café (veg/vegan bowls)
+- The Mill (calm ambience)
+
+Light lunch before kayaking.</pre>
+
+        <pre>3:30 PM — Kayaking in Backwaters (Calmest Waters)
+Choose one:
+
+⭐ Talpona River Kayaking (Recommended)
+- Extremely calm water
+- Surrounded by mangroves
+- Golden light at 4–5 PM → magical for photos
+- Safe for beginners
+
+⭐ Palolem Backwater Kayaking
+- Easy access
+- Birds, mini islands
+
+Kayaking in South Goa feels like meditation.</pre>
+
+        <pre>6:00 PM — Butterfly Beach via Boat
+A short boat trip takes you to a hidden gem.
+- Baby-safe (no trekking needed)
+- Stunning, quiet sunset
+- Gentle waves</pre>
+
+        <pre>8:00 PM — Dinner by the Beach
+Veg options at:
+- Little World Café
+- Zest Beachfront
+
+Perfect candlelight dinner with sea breeze.</pre>
+      </div>
+    </section>
+
+    <!-- DAY 4 FULL DETAILS -->
+    <section id="day4" class="day-section">
+      <div class="card p-4 animate-up">
+        <h3 class="day-title">🌊 DAY 4 — 28th Dec (Sat)</h3>
+        <h5 class="mt-2">“Agonda Morning + Souvenirs + Madgaon Departure”</h5>
+
+        <pre>8:00 AM — Breakfast
+- Little World Café
+- Zest Café
+
+Fresh smoothie bowls or Indian breakfast.</pre>
+
+        <pre>9:30 AM — Visit Agonda Beach
+One of India’s cleanest, calmest beaches.
+- Gentle waves — baby friendly
+- Quiet atmosphere
+- Perfect for family photos
+- Buy handmade soap, coconut crafts</pre>
+
+        <pre>12:30 PM — Lunch (Veg)
+- Fatima’s Veg Section
+- The Mill Café (veg-friendly)</pre>
+
+        <pre>2:30 PM — Drive to Madgaon (35–60 mins)
+Leave early to avoid traffic.
+Stop at Benaulim Beach on the way if time permits.</pre>
+
+        <pre>5:30 PM — Reach Madgaon Railway Station
+Relax, have chai, settle in for your return journey.</pre>
+      </div>
+    </section>
+
+    <!-- FINAL NOTES & CALL TO ACTION -->
+    <!-- <section class="day-section">
+    <div class="card p-4 animate-up">
+      <h3 class="day-title">❤️ Your trip is now optimized for:</h3>
+      <p class="subtle">✔ Vegetarian food only<br>✔ Baby comfort & safety<br>✔ Scenic beauty<br>✔ Water sports + kayaking<br>✔ Christmas celebration<br>✔ Zero rushing<br>✔ Maximum family enjoyment</p>
+      <p class="mt-2 subtle">If you want, I can also create: <br>✅ A printable itinerary PDF • ✅ A hotel suggestion list (veg-friendly kitchens, baby-friendly rooms) • ✅ A packing checklist for travel with baby • ✅ Add this full itinerary into your existing HTML site</p>
+    </div>
+  </section> -->
+
+    <!-- BUDGET CALCULATOR -->
+    <section class="day-section">
+      <div class="budget-box animate-up">
+        <h4 class="mb-3">Budget Calculator — Travel & Food (4 adults + 1 baby)</h4>
+
+        <div class="row g-2">
+          <div class="col-md-2">
+            <label class="form-label">Adults</label>
+            <input id="adults" class="form-control" type="number" value="4">
+          </div>
+
+          <div class="col-md-2">
+            <label class="form-label">Baby</label>
+            <input id="baby" class="form-control" type="number" value="1">
+          </div>
+
+          <div class="col-md-2">
+            <label class="form-label">Days</label>
+            <input id="days" class="form-control" type="number" value="4">
+          </div>
+
+          <div class="col-md-3">
+            <label class="form-label">Stay per night (₹)</label>
+            <input id="stayPerNight" class="form-control" type="number" value="6000">
+          </div>
+
+          <div class="col-md-3">
+            <label class="form-label">Scooty per day (₹)</label>
+            <input id="scooty" class="form-control" type="number" value="500">
+          </div>
+        </div>
+
+        <div class="row g-2 mt-2">
+          <div class="col-md-4">
+            <label class="form-label">Food per adult/day (₹)</label>
+            <input id="foodPerAdult" class="form-control" type="number" value="600">
+          </div>
+
+          <div class="col-md-4">
+            <label class="form-label">Intercity taxi one-way (₹)</label>
+            <input id="transferTaxi" class="form-control" type="number" value="3000">
+          </div>
+
+          <div class="col-md-4">
+            <label class="form-label">Misc per day (₹)</label>
+            <input id="miscPerDay" class="form-control" type="number" value="800">
+          </div>
+        </div>
+
+        <div class="mt-3">
+          <button class="btn btn-primary" onclick="calculateBudget()">Calculate</button>
+          <button class="btn btn-outline-secondary" onclick="resetBudget()">Reset</button>
+        </div>
+
+        <div id="budgetResult" class="mt-3"></div>
+      </div>
+
+      <!-- Pie Chart -->
+      <div class="budget-box mt-4 animate-up">
+        <h5 class="mb-3">Expense Breakdown</h5>
+        <canvas id="pieChart" height="200"></canvas>
+      </div>
+    </section>
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    let pieChart;
+
+    function calculateBudget() {
+      const adults = Number(document.getElementById('adults').value);
+      const baby = Number(document.getElementById('baby').value);
+      const days = Number(document.getElementById('days').value);
+      const stayPerNight = Number(document.getElementById('stayPerNight').value);
+      const scooty = Number(document.getElementById('scooty').value);
+      const foodPerAdult = Number(document.getElementById('foodPerAdult').value);
+      const transferTaxi = Number(document.getElementById('transferTaxi').value);
+      const miscPerDay = Number(document.getElementById('miscPerDay').value);
+
+      const babyFoodFactor = 0.3;
+
+      const totalFood = (adults * foodPerAdult + baby * foodPerAdult * babyFoodFactor) * days;
+      const totalStay = stayPerNight * days;
+      const totalScooty = scooty * days;
+      const travelCosts = transferTaxi + 1500;
+      const totalMisc = miscPerDay * days;
+
+      const subtotal = totalFood + totalStay + totalScooty + travelCosts + totalMisc;
+
+      const sharePersons = adults + 0.5 * baby;
+      const perPerson = subtotal / sharePersons;
+
+      document.getElementById('budgetResult').innerHTML = `
+    <div class="alert alert-info">
+      <strong>Total Trip Cost:</strong> ₹${subtotal.toLocaleString()} <br>
+      • Food: ₹${totalFood.toLocaleString()} <br>
+      • Stay: ₹${totalStay.toLocaleString()} <br>
+      • Scooty: ₹${totalScooty.toLocaleString()} <br>
+      • Travel (taxi etc.): ₹${travelCosts.toLocaleString()} <br>
+      • Misc: ₹${totalMisc.toLocaleString()} <br>
+      <hr>
+      <strong>Per-Person Share:</strong> ₹${Math.round(perPerson).toLocaleString()}
+    </div>
+  `;
+
+      updateChart(totalFood, totalStay, totalScooty, travelCosts, totalMisc);
+    }
+
+    function updateChart(food, stay, scooty, travel, misc) {
+      const ctx = document.getElementById('pieChart');
+
+      if (pieChart) pieChart.destroy();
+
+      pieChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['Food', 'Stay', 'Scooty', 'Travel', 'Misc'],
+          datasets: [{
+            data: [food, stay, scooty, travel, misc],
+            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4CAF50', '#9C27B0']
+          }]
+        }
+      });
+    }
+
+    function resetBudget() {
+      document.getElementById('adults').value = 4;
+      document.getElementById('baby').value = 1;
+      document.getElementById('days').value = 4;
+      document.getElementById('stayPerNight').value = 3000;
+      document.getElementById('scooty').value = 500;
+      document.getElementById('foodPerAdult').value = 600;
+      document.getElementById('transferTaxi').value = 3000;
+      document.getElementById('miscPerDay').value = 800;
+
+      document.getElementById('budgetResult').innerHTML = '';
+
+      if (pieChart) pieChart.destroy();
+    }
+
+    document.getElementById('adults').value = 4;
+    document.getElementById('baby').value = 1;
+    document.getElementById('days').value = 4;
+    document.getElementById('scooty').value = 500;
+    document.getElementById('foodPerAdult').value = 600;
+    document.getElementById('transferTaxi').value = 3000;
+    document.getElementById('miscPerDay').value = 800;
+    document.getElementById('budgetResult').innerHTML = '';
+
+  </script>
+</body>
+
+</html>
+
+
+<!-- FILE: gallery.html -->
